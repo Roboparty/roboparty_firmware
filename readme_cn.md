@@ -19,3 +19,5 @@ git clone --recursive https://github.com/wentywenty/atom01_firmware.git
 # 或克隆后再初始化子模块
 git submodule update --init --recursive
 ```
+
+镜像文件都在每个子模块的release里面
