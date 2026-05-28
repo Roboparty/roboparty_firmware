@@ -1,6 +1,6 @@
-# Atom01 Firmware
+# roboparty_firmware
 
-Firmware and build system repository for the Atom01 series.
+Firmware and board image build systems for Roboparty robots, including RPO/Roboto platforms.
 
 ## Repository Structure
 
@@ -14,8 +14,14 @@ Firmware and build system repository for the Atom01 series.
 
 ```bash
 # Clone with submodules
-git clone --recursive https://github.com/wentywenty/atom01_firmware.git
+git clone --recursive https://github.com/Roboparty/roboparty_firmware.git
 
 # Or init submodules after clone
 git submodule update --init --recursive
 ```
+
+## Notes
+
+Some vendored build systems and firmware components may keep their upstream names,
+licenses, and directory layout. Those compatibility paths should not be renamed
+unless the corresponding build scripts are updated and validated.
